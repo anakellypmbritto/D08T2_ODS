@@ -1,0 +1,79 @@
+/* Importando fontes personalizadas do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Estilos do menu de navegação */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    margin-right: 20px;
+}
+
+.navbar-logo img {
+    margin-left: 10px;
+    height: 40px;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-item:hover, .dropdown-content a:hover {
+    background-color: #555;
+}
+
+/* Estilos do dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    display: none;
+    z-index: 1;
+    text-align: center;
+    width: 200px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
