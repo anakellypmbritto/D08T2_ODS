@@ -1,79 +1,108 @@
 /* Importando fontes personalizadas do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* Raíz de Estilo*/
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    --background: #d7ffea;
+
+    --fonte-site: 'Roboto', sans-serif;
+    --fonte-especial: 'Concert One', cursive; 
+}
 
 /* Reset de estilos */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
+    background-color: var(--background);
+    font-family: var(--fonte-site);
+    font-size: 1.0em;
 }
 
-ul {
-    list-style: none;
+.title {
+    font-family: var(--fonte-especial);
+    color: var(--cor0);
+    margin: 0;
+    text-align: left;
+
 }
 
-/* Estilos do menu de navegação */
-.navbar {
-    background-color: #333;
+header {
+  background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
+  
+  .logo,
+  .header-text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .logo {
+    margin: 2.0em;
+  }
+
+  .logo img {
+    width: 4.0em;
+    height: auto;/
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  nav {
+    background-color: var(--cor5);
     color: #fff;
     padding: 10px;
-    display: flex;
-    align-items: center;
-}
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.384) ;
+  }
 
-.navbar-logo {
-    margin-right: 20px;
-}
+  .menu li {
+    display: inline;
+    padding: 1.0em;
+   }
 
-.navbar-logo img {
-    margin-left: 10px;
-    height: 40px;
-}
-
-.navbar-menu {
-    display: flex;
-    align-items: center;
-}
-
-.navbar-item {
-    padding: 10px 15px;
+   .menu li a {
+    color: var(--cor0);
     text-decoration: none;
-    color: #fff;
-}
+   }
 
-.navbar-item:hover, .dropdown-content a:hover {
-    background-color: #555;
-}
+   .menu li a:hover {
+    color: var(--cor3);
+    text-decoration: underline;
+   }
 
-/* Estilos do dropdown */
-.dropdown {
-    position: relative;
-}
+   main {
+    padding-top: 170px;
+    width: 80%;
+    margin: 0 auto;
+   }
 
-.dropdown-content {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #333;
-    display: none;
-    z-index: 1;
+   section {
+    margin: 20px 0;
+   }
+
+   #asods {
+    margin: 20px 0;
     text-align: center;
-    width: 200px;
-}
-
-.dropdown-content a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #fff;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
+   }
