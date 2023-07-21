@@ -127,7 +127,7 @@ main p {
 .links:visited {
   background-color: var(--cor2);
   color: var(--cor4);
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .video {
@@ -139,10 +139,11 @@ main p {
 
 iframe {
   position: absolute;
-  top: 5%;
-  left: 20%;
+  top: 50%;
+  left: 50%;
   width: 60%;
   height: 90%;
+  transform: translate(-50%, -50%);
 }
 
 /*Aside*/
