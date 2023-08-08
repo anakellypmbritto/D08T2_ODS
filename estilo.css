@@ -36,6 +36,7 @@ nav {
   height: 70px;
   background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
   }
 
 .header-logo {
@@ -241,12 +242,11 @@ main {
   line-height: 1.5em;
 }
 
-.video {
+.video-box {
   position: relative;
   background-color: var(--cor5);
   padding-bottom: 35%;
   border-radius: 10px;
-  z-index: -1;
 }
 
 .videooqsao {
