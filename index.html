@@ -1,134 +1,221 @@
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/odsfavicon.ico" />
-    <link rel="stylesheet" href="style.css">
-    
-    <title>ODS - Objetivo de Desenvolvimento Sustentável</title>
+
+    <title>BlogODS</title>
+
+    <link rel="shortcut icon" href="assets/odsfavicon.ico">
+    <link rel="stylesheet" href="estilo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="assets/ods-logo.png" alt="Logo da Empresa">
-        </div>
-        <div class="header-text">
-            <h1 class="title">Objetivo de Desenvolvimento Sustentável</h1>
-            <h2 class="title">O que são as ODS?</h2>
-        </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="#aboutus">Sobre Nós</a></li>
-                <li>
-                  <a href="#">Serviço</a></li>   
-                <li><a href="#contact">Contato</a></li>
-              </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <h3 class="content-title">Os ODS e sua Importância para o Desenvolvimento Sustentável</h3>
-            
-            <div id="imgasods"> 
-                <img src="assets/ods-img.png" alt="ODSs">
+    <nav>
+        <div class="navbar-box">
+            <div class="header-logo">
+                <img class="header-logo__image" src="assets/ods-logo.png" alt="Logo da Empresa">
+                <a class="header-logo__text" href="#">BlogODS</a>
             </div>
-            
-            <p>
-                Os ODS, ou Objetivos de Desenvolvimento Sustentável, são uma iniciativa global criada pela Organização das Nações Unidas (ONU) com o objetivo de enfrentar os desafios mundiais mais prementes e promover o desenvolvimento sustentável em escala global. Surgiram em setembro de 2015, como sucessoras dos Objetivos de Desenvolvimento do Milênio (ODM), com o propósito de ir além das conquistas alcançadas e abordar novas questões como a desigualdade, a mudança climática e a promoção da paz e da justiça.
-            <p>
-            <p>    
-                A elaboração das ODS envolveu um processo colaborativo e inclusivo, contando com a participação de governos, organizações não governamentais, empresas, academia e cidadãos de todo o mundo. Esse amplo engajamento foi essencial para identificar e priorizar as áreas de atuação mais cruciais, garantindo que as metas estabelecidas fossem realistas e alinhadas com as necessidades e aspirações da humanidade.
-            </p>
-            <p>    
-                A importância das ODS é inegável, uma vez que representam um roteiro para um futuro mais justo, próspero e sustentável. Compostas por 17 objetivos e 169 metas específicas, as ODS abrangem uma ampla gama de questões, incluindo a erradicação da pobreza, a promoção da igualdade de gênero, o combate às mudanças climáticas, a proteção da biodiversidade e a promoção de sociedades pacíficas e inclusivas. Esses objetivos não apenas visam melhorar a vida das pessoas em todo o mundo, mas também garantir a preservação do planeta para as gerações futuras.
-            </p>
-            <p>
-                Ao alcançar os objetivos estabelecidos pelas ODS, podemos construir um mundo mais resiliente e sustentável para todos. Além disso, ao abordar questões complexas de maneira integrada, as ODS promovem sinergias e interações positivas entre diferentes áreas, criando um impacto mais significativo em escala global. Portanto, a implementação das ODS exige esforços conjuntos de todos os setores da sociedade, com ações coordenadas e compromisso contínuo para superar os desafios existentes.
-            </p>
-            <p>
-                Em síntese, as ODS representam um marco crucial na jornada rumo a um futuro melhor para o nosso planeta. Com sua abordagem inclusiva, global e ambiciosa, esses objetivos têm o potencial de transformar positivamente a vida de bilhões de pessoas, ao mesmo tempo que protegem e preservam nosso meio ambiente. A realização das ODS requer o engajamento e a colaboração de todos nós, pois cada indivíduo e entidade possui um papel importante na construção de um mundo mais sustentável, justo e próspero.
-            </p>
-                        
-            <div id="videoasods"class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/47dlz-eHR44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="links-box">
+                <ul class="header-nav__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#">Conhecimento</a>
+                        <i class='bx bxs-chevron-down arrow htmlcss-arrow'></i>
+                        <ul class="conhecimento-sub-menu sub-menu">
+                            <li><a href="https://sdgs.un.org/">Página Oficial dos ODS da ONU</a></li>
+                            <li><a href="https://www.un.org/sustainabledevelopment/development-agenda/">Agenda 2030 da ONU</a></li>
+                            <li><a href="https://unstats.un.org/sdgs/report/">Relatório de Desenvolvimento Sustentável da ONU</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">ODS</a>
+                        <i class='bx bxs-chevron-down arrow js-arrow'></i>
+                        <ul class="ods-sub-menu sub-menu">
+                            <li><a href="https://youtu.be/1k-fi5Wn6BY">Objetivo 1</a></li>
+                            <li><a href="https://youtu.be/mO3b-olU04o">Objetivo 2</a></li>
+                            <li><a href="https://youtu.be/d6_cSrpUDk0">Objetivo 3</a></li>
+                            <li><a href="https://youtu.be/OBcKJJKLhGk">Objetivo 4</a></li>
+                            <li><a href="https://youtu.be/e_ncmwle4pc">Objetivo 5</a></li>
+                            <li class="more-list">
+                                <a href="#">Mais</a>
+                                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                <ul class="more-sub-menu sub-menu">
+                                    <li><a href="https://youtu.be/3_7kBxKbElE">Objetivo 6</a></li>
+                                    <li><a href="https://youtu.be/GvzTcWxWfa8">Objetivo 7</a></li>
+                                    <li><a href="https://youtu.be/X0g0sQuJj1k">Objetivo 8</a></li>
+                                    <li><a href="https://youtu.be/tfR0Z11g5v8">Objetivo 9</a></li>
+                                    <li><a href="https://youtu.be/TBIsdyCv5v8">Objetivo 10</a></li>
+                                    <li><a href="https://youtu.be/M0K7K2blRiw">Objetivo 11</a></li>
+                                    <li><a href="https://youtu.be/_EWaTZk6uNA">Objetivo 12</a></li>
+                                    <li><a href="https://youtu.be/PCzAmVfqErU">Objetivo 13</a></li>
+                                    <li><a href="https://youtu.be/6Pjh9vIKseg">Objetivo 14</a></li>
+                                    <li><a href="https://youtu.be/sGLZmg5m9hA">Objetivo 15</a></li>
+                                    <li><a href="https://youtu.be/kkCKt8zHmPQ">Objetivo 16</a></li>
+                                    <li><a href="https://youtu.be/65wPjarLVmM">Objetivo 17</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#aboutus">Sobre Nós</a></li>
+                    <li><a href="#contactus">Contato</a></li>
+                </ul>
             </div>
+            <div class="search-box">
+                <i class='bx bx-search-alt-2'></i>
+                <div class="input-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
 
-            <h3 class="content-title">Indicadores e Monitoramento das ODS</h3>
-            
-            <p>
-                Um dos elementos fundamentais para o sucesso dos Objetivos de Desenvolvimento Sustentável (ODS) é o estabelecimento de indicadores e um sistema eficiente de monitoramento. Esses indicadores são instrumentos que permitem mensurar o progresso em cada objetivo e meta, fornecendo informações valiosas para avaliar o impacto das ações implementadas e identificar áreas que requerem maior atenção e esforços redobrados.
-            </p>
-            <p>
-                O monitoramento é uma parte crucial desse processo, pois permite uma avaliação contínua do progresso realizado. Através de mecanismos de coleta e análise de dados, os países e organizações podem verificar se as ações empreendidas estão produzindo os resultados esperados e, se necessário, ajustar suas estratégias para maximizar o impacto positivo.
-            </p>
-            <p>    
-                Além disso, o monitoramento ajuda a identificar desafios e obstáculos que possam surgir ao longo do caminho. Se um país estiver enfrentando dificuldades significativas na implementação de determinada meta, o monitoramento permitirá uma análise mais aprofundada dos fatores que contribuem para essa situação, facilitando o compartilhamento de boas práticas e lições aprendidas entre os países e atores envolvidos.
-            </p>
-            <p>
-                Outro aspecto crucial do monitoramento das ODS é a transparência e prestação de contas. Ao disponibilizar publicamente os dados e informações sobre o progresso em direção aos objetivos, os governos e organizações responsáveis demonstram seu compromisso e responsabilidade em relação à Agenda 2030. Isso também permite que a sociedade civil e a comunidade internacional acompanhem de perto o avanço das metas e possam exigir ações mais efetivas e responsáveis dos tomadores de decisão.
-            </p>
-            <p>
-                No entanto, embora o sistema de indicadores e monitoramento seja essencial para medir o progresso, também apresenta desafios e limitações. A coleta de dados pode ser complexa e dispendiosa, especialmente em países com recursos limitados e capacidade institucional reduzida. Além disso, alguns objetivos, como aqueles relacionados à paz e à justiça, podem ser mais difíceis de quantificar e exigir abordagens mais qualitativas.
-            </p>
-            <p>
-                Em conclusão, os indicadores e o monitoramento das ODS desempenham um papel central na jornada rumo ao desenvolvimento sustentável. Eles permitem uma avaliação objetiva e sistemática do progresso, garantindo que os esforços globais estejam alinhados com as necessidades da humanidade e do planeta. Para atingir esses objetivos ambiciosos, é essencial continuar aprimorando o sistema de indicadores, superar desafios e fortalecer a cooperação internacional, garantindo que ninguém seja deixado para trás nessa busca coletiva por um futuro mais justo, equitativo e sustentável.
-            </p>    
-        </section>    
+<main class="highlight-main">
+    <section class="highlight-section">
+        <h3 class="main-title">Desvendando os Objetivos de Desenvolvimento Sustentável (ODS)</h3>
+        
+        <div id="imgods"> 
+            <img class="imgods-main" src="assets/ods-img-main.png" alt="ODSs">
+        </div>
 
+        <p>
+            Você já ouviu falar sobre os ODS? São as iniciais de Objetivos de Desenvolvimento Sustentável, um conjunto de metas globais que têm um grande objetivo em mente: tornar nosso mundo um lugar melhor para todos. Mas o que exatamente são esses ODS, por que eles importam e como estão relacionados com as questões globais? Vamos descobrir juntos!
+        <p>
 
-        <section>
-            <article>
-                <h3 class="content-title">São 17</h3>
-
-                
-
-            </article>
-        </section>
-
-        <section>
-            <aside>
-                <h3>Quer saber mais?</h3>
-                <ol>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/1" target="_blank">Erradicação da Pobreza</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/2" target="_blank">Fome Zero e Agricultura Sustentável</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/3" target="_blank">Saúde e Bem-Estar</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank">Educação de Qualidade</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/5" target="_blank">Igualdade de Gênero</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/6" target="_blank">Água Limpa e Saneamento</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/7" target="_blank">Energia Limpa e Acessível</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/8" target="_blank">Trabalho Decente e Crescimento Econômico</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/9" target="_blank">Indústria, Inovação e Infraestrutura</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/10" target="_blank">Redução das Desigualdades</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/11" target="_blank">Cidades e Comunidades Sustentáveis</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/12" target="_blank">Consumo e Produção Sustentáveis</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/13" target="_blank">Ação Contra a Mudança Global do Clima</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/14" target="_blank">Vida na Água</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/15" target="_blank">Vida Terrestre</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/16" target="_blank">Paz, Justiça e Instituições Eficazes</a></li>
-                    <li><a href="https://brasil.un.org/pt-br/sdgs/17" target="_blank">Parcerias e Meios de Implementação</a></li>  
-                </ol>
-            </aside>
-        </section> 
         
 
-        <section id="aboutus">
-            <h3 class="content-title">Sobre Nós</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus in facere quas voluptatem sint quibusdam officia saepe ipsam pariatur accusantium velit aperiam, est explicabo odit quos corporis repudiandae eos eum tempora! Dolorum dicta deleniti impedit dolore? Rem commodi in nisi veniam, dolores, consequatur non delectus id natus itaque numquam corporis.</p>
-        </section>
+        <p>    
+            Os Objetivos de Desenvolvimento Sustentável são como um mapa para um futuro mais brilhante. São 17 metas criadas pelas Nações Unidas, que abordam desafios importantes que nosso planeta e sua população enfrentam. Imagine que cada objetivo seja um quebra-cabeça, e quando os encaixamos todos, formamos um mundo mais justo, saudável e equilibrado.
+        </p>
+        <p>    
+            Os ODS são como uma receita para um mundo melhor. Eles nos lembram que todos nós, independente de onde vivemos, temos um papel importante em fazer o planeta prosperar. Se conseguirmos alcançar essas metas até 2030, estaremos mais perto de acabar com a pobreza, proteger o planeta e garantir que todas as pessoas tenham oportunidades iguais.
+        </p>
+        <p>
+            Imagine um grande quebra-cabeça com muitas peças diferentes. Cada peça representa um desafio que o mundo enfrenta, como fome, falta de educação, desigualdade de gênero, mudanças climáticas e muito mais. Os ODS são como as peças do quebra-cabeça que nos ajudam a resolver esses problemas. Por exemplo, o ODS 1 foca na erradicação da pobreza, enquanto o ODS 13 lida com a ação climática. Juntos, eles formam um plano para lidar com todos esses problemas, um passo de cada vez.
+        </p>
+        <p>
+            Os Objetivos de Desenvolvimento Sustentável são uma promessa global para um mundo melhor. Eles nos lembram que, não importa onde vivemos ou quem somos, todos compartilhamos este planeta e a responsabilidade de cuidar dele. Cada pequeno esforço que fazemos, desde economizar energia até apoiar causas importantes, nos aproxima do cumprimento dessas metas. Juntos, podemos fazer uma grande diferença!
+        </p>
+                    
+        <div id="videoasods"class="video">
+            <iframe class="videooqsao" width="560" height="315" src="https://www.youtube.com/embed/47dlz-eHR44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
 
-        <section id="contact">
-            <h3 class="content-title">Contato</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, maxime.</p>
-        </section>
-    </main>
+        <h3 class="main-title">Indicadores e Monitoramento das ODS</h3>
+        
+        <div id="imgods"> 
+            <img class="imgods-main" src="assets/ods-img.png" alt="ODSs">
+        </div>   
+
+        <p>
+            Um dos elementos fundamentais para o sucesso dos Objetivos de Desenvolvimento Sustentável (ODS) é o estabelecimento de indicadores e um sistema eficiente de monitoramento. Esses indicadores são instrumentos que permitem mensurar o progresso em cada objetivo e meta, fornecendo informações valiosas para avaliar o impacto das ações implementadas e identificar áreas que requerem maior atenção e esforços redobrados.
+        </p>
+        <p>
+            O monitoramento é uma parte crucial desse processo, pois permite uma avaliação contínua do progresso realizado. Através de mecanismos de coleta e análise de dados, os países e organizações podem verificar se as ações empreendidas estão produzindo os resultados esperados e, se necessário, ajustar suas estratégias para maximizar o impacto positivo.
+        </p>
+        <p>    
+            Além disso, o monitoramento ajuda a identificar desafios e obstáculos que possam surgir ao longo do caminho. Se um país estiver enfrentando dificuldades significativas na implementação de determinada meta, o monitoramento permitirá uma análise mais aprofundada dos fatores que contribuem para essa situação, facilitando o compartilhamento de boas práticas e lições aprendidas entre os países e atores envolvidos.
+        </p>
+        <p>
+            Outro aspecto crucial do monitoramento das ODS é a transparência e prestação de contas. Ao disponibilizar publicamente os dados e informações sobre o progresso em direção aos objetivos, os governos e organizações responsáveis demonstram seu compromisso e responsabilidade em relação à Agenda 2030. Isso também permite que a sociedade civil e a comunidade internacional acompanhem de perto o avanço das metas e possam exigir ações mais efetivas e responsáveis dos tomadores de decisão.
+        </p>
+        <p>
+            No entanto, embora o sistema de indicadores e monitoramento seja essencial para medir o progresso, também apresenta desafios e limitações. A coleta de dados pode ser complexa e dispendiosa, especialmente em países com recursos limitados e capacidade institucional reduzida. Além disso, alguns objetivos, como aqueles relacionados à paz e à justiça, podem ser mais difíceis de quantificar e exigir abordagens mais qualitativas.
+        </p>
+        <p>
+            Em conclusão, os indicadores e o monitoramento das ODS desempenham um papel central na jornada rumo ao desenvolvimento sustentável. Eles permitem uma avaliação objetiva e sistemática do progresso, garantindo que os esforços globais estejam alinhados com as necessidades da humanidade e do planeta. Para atingir esses objetivos ambiciosos, é essencial continuar aprimorando o sistema de indicadores, superar desafios e fortalecer a cooperação internacional, garantindo que ninguém seja deixado para trás nessa busca coletiva por um futuro mais justo, equitativo e sustentável.
+        </p>    
+    </section>    
+
+    <section>
+        <aside>
+            <h3>Quer saber mais?</h3>
+            <ol>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/1" target="_blank">Erradicação da Pobreza</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/2" target="_blank">Fome Zero e Agricultura Sustentável</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/3" target="_blank">Saúde e Bem-Estar</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank">Educação de Qualidade</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/5" target="_blank">Igualdade de Gênero</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/6" target="_blank">Água Limpa e Saneamento</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/7" target="_blank">Energia Limpa e Acessível</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/8" target="_blank">Trabalho Decente e Crescimento Econômico</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/9" target="_blank">Indústria, Inovação e Infraestrutura</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/10" target="_blank">Redução das Desigualdades</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/11" target="_blank">Cidades e Comunidades Sustentáveis</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/12" target="_blank">Consumo e Produção Sustentáveis</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/13" target="_blank">Ação Contra a Mudança Global do Clima</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/14" target="_blank">Vida na Água</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/15" target="_blank">Vida Terrestre</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/16" target="_blank">Paz, Justiça e Instituições Eficazes</a></li>
+                <li><a href="https://brasil.un.org/pt-br/sdgs/17" target="_blank">Parcerias e Meios de Implementação</a></li>  
+            </ol>
+        </aside>
+    </section> 
+    
+
+    <section id="aboutus">
+    </section>
+
+    <section id="contactus">
+        <section class="contact-section">
+            <div class="contact-image">
+                <img src="assets/contactus-blogods.png" alt="Contact Image" width="100%">
+                <div class="contact-icons">
+                <a href="https://wa.me/5522981290722" target="_blank"><img src="assets/whatsapp.png" alt="WhatsApp Icon" width="20" height="20"></a>
+                <a href="https://github.com/anakellypmbritto" target="_blank"><img src="assets/github.png" alt="Github Icon" width="20" height="20"></a>
+                <a href="https://www.instagram.com/anakellypmbritto/" target="_blank"><img src="assets/insta.png" alt="Instagram Icon" width="20" height="20"></a>
+                <a href="http://www.linkedin.com/in/anakellypmbritto" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn Icon" width="20" height="20"></a>
+                <a href="mailto:akpbritto9@gmail.com" target="_blank"><img src="assets/gmail.png" alt="Gmail Icon" width="20" height="20"></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Quero Colaborar</h2>
+                <form action="#" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <button type="submit">Enviar Contato</button>
+                </form>
+            </div>
+    </section>
+</main>
 
     <footer>
         <p><a href="https://github.com/anakellypmbritto" target="_blank">Direitos Reservados &copy; Ana Kelly Britto</a></p>
         <p><a href="https://github.com/anakellypmbritto" target="_blank">Política de Privacidade</a></p>
         <p>Desenvolvido por <a href="https://github.com/anakellypmbritto" target="_blank">Ana Kelly Britto</a></p>
     </footer>
-
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
