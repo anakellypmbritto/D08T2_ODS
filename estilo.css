@@ -147,7 +147,7 @@ li:hover .ods-sub-menu {
 
 li .more-list .more-sub-menu {
   position: absolute;
-  top: 0;
+  top: -100%;
   left: 100%;
   border-radius: 0 4px 4px 4px;
   display: none;
